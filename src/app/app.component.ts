@@ -26,3 +26,4 @@ export class AppComponent implements OnInit {
       error => console.error('Error al obtener datos desde Arduino:', error)
     );
   }
+}
