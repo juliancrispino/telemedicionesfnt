@@ -1,7 +1,7 @@
-<div *ngIf="arduinoData.length != 0">
+<div *ngIf="arduinoData?.length != 0">
   <h1>Datos desde Arduino:</h1>
   <pre>{{ arduinoData | json }}</pre>
 </div>
-<div *ngIf="arduinoData.length == 0">
+<div *ngIf="arduinoData?.length == 0">
   <h1>No se han recibido datos</h1>
 </div>
